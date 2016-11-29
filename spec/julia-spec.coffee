@@ -384,6 +384,6 @@ describe "Julia grammar", ->
     expect(tokens[9]).toEqual value: '->',   scopes:  ["source.julia", "keyword.operator.arrow.julia"]
     expect(tokens[10]).toEqual value: 'x',   scopes:  ["source.julia"]
     expect(tokens[11]).toEqual value: '.^',  scopes:  ["source.julia", "keyword.operator.arithmetic.julia"]
-    expect(tokens[12]).toEqual value: '2 ',  scopes:  ["source.julia", "constant.numeric.julia"]
+    expect(tokens[12]).toEqual value: '2',  scopes:  ["source.julia", "constant.numeric.julia"]
     expect(tokens[13]).toEqual value: '|>',  scopes:  ["source.julia", "keyword.operator.applies.julia"]
     expect(tokens[14]).toEqual value: ' sum',   scopes:  ["source.julia"]
